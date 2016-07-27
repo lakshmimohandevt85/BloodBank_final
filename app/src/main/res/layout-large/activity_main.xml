@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:background="#560303"
+    tools:context="com.sdsu.cs646.lakshmi.bloodbank.MainActivity"
+    android:gravity="center_horizontal">
+
+    <LinearLayout
+        android:layout_width="211dp"
+        android:layout_height="100dp"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:gravity="center_vertical|center_horizontal"
+        android:background="#560303"
+        >
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageButton_donate"
+            android:gravity="center_vertical"
+            android:src="@drawable/blood_donor"
+            android:layout_column="12"
+            android:onClick="goDonateBloodActivity"
+            android:layout_below="@+id/textView_headLine"
+            android:layout_alignLeft="@+id/textView_location"
+            android:layout_alignStart="@+id/textView_location"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="147dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/DONATEBLOOD"
+            android:gravity="center_vertical"
+            android:textColor="#ffffffff"
+            android:id="@+id/textView_donate"
+            android:layout_below="@+id/imageButton_donate"
+            android:layout_alignLeft="@+id/textView_view_donor"
+            android:layout_alignStart="@+id/textView_view_donor" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="211dp"
+        android:layout_height="100dp"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:gravity="center_vertical|center_horizontal"
+        android:background="#560303"
+        >
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageButton_donor"
+            android:gravity="center_vertical"
+            android:src="@drawable/blood_donor"
+            android:layout_column="12"
+            android:onClick="goSelectDonorsActivity"
+            android:layout_above="@+id/textView_view_donor"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/view_donor"
+            android:gravity="center_vertical"
+            android:textColor="#ffffffff"
+            android:id="@+id/textView_view_donor"
+            android:layout_below="@+id/imageButton_donate"
+            android:layout_alignLeft="@+id/textView_view_donor"
+            android:layout_alignStart="@+id/textView_view_donor" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="211dp"
+        android:layout_height="100dp"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:background="#560303"
+        android:gravity="center_vertical|center_horizontal">
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageButton_chart"
+            android:src="@drawable/chart"
+            android:onClick="goSelectChartActivity"
+            android:gravity="center_vertical"
+            android:layout_column="12"
+            android:layout_centerVertical="true"
+            android:layout_alignRight="@+id/textView_location"
+            android:layout_alignEnd="@+id/textView_location" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/blood_status"
+            android:gravity="center_vertical"
+            android:id="@+id/textView_blood_status"
+            android:textColor="#ffffffff"
+            android:layout_below="@+id/img6"
+            android:layout_centerHorizontal="true" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="211dp"
+        android:layout_height="130dp"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:gravity="center_vertical|center_horizontal"
+        android:background="#560303"
+        android:weightSum="1">
+
+        <ImageButton
+            android:layout_width="86dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView_logOut"
+            android:src="@drawable/exit"
+            android:gravity="center_vertical"
+            android:layout_column="12"
+            android:onClick="logout"
+            android:layout_below="@+id/textView_blood_status"
+            android:layout_alignRight="@+id/textView_location"
+            android:layout_alignEnd="@+id/textView_location"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/logout"
+            android:gravity="center_vertical"
+            android:id="@+id/textView_location"
+            android:textColor="#ffffffff"
+            android:layout_centerHorizontal="true"
+            android:layout_weight="0.15" />
+    </LinearLayout>
+
+</LinearLayout>
+
+
+
+

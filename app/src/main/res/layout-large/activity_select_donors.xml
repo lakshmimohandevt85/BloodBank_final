@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:paddingBottom="@dimen/activity_vertical_margin"
+android:paddingLeft="@dimen/activity_horizontal_margin"
+android:paddingRight="@dimen/activity_horizontal_margin"
+android:paddingTop="@dimen/activity_vertical_margin"
+tools:context="com.sdsu.cs646.lakshmi.bloodbank.SelectDonorsActivity"
+android:background="#651919">
+
+
+
+    <Button
+        android:id="@+id/button_submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/submit"
+        android:onClick="back"
+        android:layout_alignTop="@+id/button_cancel"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/button_cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cancel"
+        android:onClick="goBack"
+        android:layout_centerVertical="true"
+        android:layout_alignRight="@+id/spinner_blood_select"
+        android:layout_alignEnd="@+id/spinner_blood_select" />
+
+
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textAppearance="?android:attr/textAppearanceLarge"
+    android:text="@string/view_donor"
+    android:id="@+id/textView_enterDetails"
+    android:textColor="#ffffffff"
+    android:layout_centerHorizontal="true" />
+
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textColor="#ffffffff"
+    android:textAppearance="?android:attr/textAppearanceMedium"
+    android:text="@string/blood"
+    android:id="@+id/textView_bloodGroup"
+    android:layout_alignTop="@+id/spinner_blood_select"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true" />
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textColor="#ffffffff"
+    android:textAppearance="?android:attr/textAppearanceMedium"
+    android:text="@string/textViewState"
+    android:id="@+id/textView_state"
+    android:layout_below="@+id/textView_enterDetails"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true"
+    android:layout_marginTop="76dp" />
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="6dp"
+    android:textColor="#ffffffff"
+    android:text="@string/hint_donor"
+    android:id="@+id/textView_hint"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentRight="true"
+    android:layout_alignParentEnd="true" />
+
+<Spinner
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/spinner_state_select"
+    android:layout_alignBaseline="@+id/textView_state"
+    android:layout_alignBottom="@+id/textView_state"
+    android:layout_alignParentRight="true"
+    android:layout_alignParentEnd="true"
+    android:layout_toRightOf="@+id/textView_enterDetails"
+    android:layout_toEndOf="@+id/textView_enterDetails" />
+
+<Spinner
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/spinner_blood_select"
+    android:textColor="#ffffffff"
+    android:layout_above="@+id/button_cancel"
+    android:layout_toRightOf="@+id/textView_enterDetails"
+    android:layout_toEndOf="@+id/textView_enterDetails" />
+</RelativeLayout>

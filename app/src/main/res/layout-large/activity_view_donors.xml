@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+tools:context=".view.ViewDonorsActivity"
+android:layout_height="match_parent"
+android:layout_width="match_parent"
+android:background="#651919">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/datas"
+        android:id="@+id/textView_enterDetails"
+        android:textColor="#ffffffff"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/textView_currentLocation"
+        android:layout_toEndOf="@+id/textView_currentLocation" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffffff"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/Name"
+        android:id="@+id/textView_name"
+        android:layout_below="@+id/textView_enterDetails"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="28dp" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffffff"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/Address"
+        android:id="@+id/textView_address"
+        android:layout_marginTop="62dp"
+        android:layout_below="@+id/textView_contactNo"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffffff"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/ContactNo"
+        android:id="@+id/textView_contactNo"
+        android:layout_below="@+id/textView_name"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="53dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffffff"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/BloodGroup"
+        android:id="@+id/textView_blood_group"
+        android:layout_below="@+id/textView_address"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="47dp" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffffff"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/textViewState"
+        android:id="@+id/textView_state"
+        android:layout_alignBaseline="@+id/textView_stateListed"
+        android:layout_alignBottom="@+id/textView_stateListed"
+        android:layout_alignRight="@+id/textView_name"
+        android:layout_alignEnd="@+id/textView_name" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffffff"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/MedicalHistory"
+        android:id="@+id/textView_medicalHistory"
+        android:layout_marginTop="49dp"
+        android:layout_below="@+id/textView_currentLocation"
+        android:layout_alignLeft="@+id/textView_currentLocation"
+        android:layout_alignStart="@+id/textView_currentLocation" />
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffffff"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/currentLocation"
+        android:id="@+id/textView_currentLocation"
+        android:layout_marginTop="49dp"
+        android:layout_below="@+id/textView_state"
+        android:layout_alignLeft="@+id/textView_state"
+        android:layout_alignStart="@+id/textView_state" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffffff"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/Name"
+        android:id="@+id/textView_nameListed"
+        android:layout_alignTop="@+id/textView_name"
+        android:layout_alignRight="@+id/textView_medicalListed"
+        android:layout_alignEnd="@+id/textView_medicalListed" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffffff"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/contact"
+        android:id="@+id/textView_contactListed"
+        android:layout_alignTop="@+id/textView_contactNo"
+        android:layout_alignLeft="@+id/textView_locationView"
+        android:layout_alignStart="@+id/textView_locationView" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffffff"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/clocation"
+        android:id="@+id/textView_locationView"
+        android:layout_alignBaseline="@+id/textView_currentLocation"
+        android:layout_alignBottom="@+id/textView_currentLocation"
+        android:layout_alignRight="@+id/textView_addressListed"
+        android:layout_alignEnd="@+id/textView_addressListed" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffffff"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/clocation"
+        android:id="@+id/textView_addressListed"
+        android:layout_alignBaseline="@+id/textView_address"
+        android:layout_alignBottom="@+id/textView_address"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffffff"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/history"
+        android:id="@+id/textView_medicalListed"
+        android:layout_alignTop="@+id/textView_medicalHistory"
+        android:layout_alignRight="@+id/textView_locationView"
+        android:layout_alignEnd="@+id/textView_locationView" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffffff"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/blood"
+        android:id="@+id/textView_bloodListed"
+        android:layout_alignTop="@+id/textView_blood_group"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffffff"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/state"
+        android:id="@+id/textView_stateListed"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/textView_nameListed"
+        android:layout_alignStart="@+id/textView_nameListed" />
+
+    <Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/view_location"
+    android:id="@+id/button_viewLocation"
+    android:onClick="goToMapActivity"
+    android:layout_alignTop="@+id/button_deleteEntry" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/deleteEntry"
+        android:id="@+id/button_deleteEntry"
+        android:onClick="deleteUser"
+        android:layout_marginBottom="74dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+</RelativeLayout>

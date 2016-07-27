@@ -1,0 +1,214 @@
+<resources>
+    <string name="app_name">BLOOD BANK</string>
+    <string name="Register">Register</string>
+    <string name="viewDonors">View Donors</string>
+    <string name="enterInformation">Enter Information</string>
+    <string name="prompt">prompt</string>
+    <string name="list"> Name </string>
+    <string name="enterDetails">ENTER DETAILS</string>
+    <string name="Name">Name</string>
+    <string name="BloodGroup">Blood Group</string>
+    <string name="Address"> Address</string>
+    <string name="ContactNo"> Contact No</string>
+    <string name="MedicalHistory"> Medical History</string>
+    <string name="appName"> BLOOD BANK </string>
+    <string name="app_logo">Donate Blood, Save Life !</string>
+    <string name="head_line">BLOOD BANK SYSTEM </string>
+    <string name="DONATEBLOOD">DONATE BLOOD </string>
+    <string name="view_donor">VIEW DONOR </string>
+    <string name="blood_status">BLOOD STATUS </string>
+    <string name="location">LOCATION </string>
+    <string name="bloodAvailability">Blood Availability </string>
+    <string name="footer_text">Blood Availability </string>
+    <string name="back"> Back </string>
+    <string name="select"> Select Donor</string>
+    <string name="view_location"> View Location</string>
+    <string name="online"> ONLINE BLOOD BANK</string>
+    <string name="state"> State</string>
+    <string name="currentlocation"> Current Location</string>
+    <string name="donorDetails">  Donor details added</string>
+    <string name="exception">Exception Occured</string>
+    <string name="yes">Yes</string>
+    <string name="selectBlood">Please select blood group</string>
+    <string name="selectState">Please select State</string>
+    <string name="select_1"> Select</string>
+    <string name="toPassState"> State</string>
+    <string name="chartView"> View Chart</string>
+    <string name="submit"> SUBMIT</string>
+    <string name="cancel"> CANCEL</string>
+    <string name="blood"> Blood</string>
+    <string name="noData"> No data available for the state</string>
+    <string name="aPositive"> APostive</string>
+    <string name="aPlus"> A+</string>
+    <string name="bPositive"> BPostive</string>
+    <string name="bPlus"> B+</string>
+    <string name="oPositive"> OPostive</string>
+    <string name="oPlus"> O+</string>
+    <string name="abPositive"> ABPostive</string>
+    <string name="abPlus"> AB+</string>
+    <string name="aNegative"> ANegative</string>
+    <string name="aMinus"> A-</string>
+    <string name="bNegative"> BNegative</string>
+    <string name="bMinus"> B-</string>
+    <string name="abNegative"> ABNegative</string>
+    <string name="abMinus"> AB-</string>
+    <string name="oNegative"> ONegative</string>
+    <string name="oMinus"> O- </string>
+    <string name="bloodGroup"> bloodGroup </string>
+    <string name="noDatas"> No Data... </string>
+    <string name="connected"> connected </string>
+    <string name="connect"> I am connected! </string>
+    <string name="blood_group">  Blood Group </string>
+    <string name="mapView">  Map View </string>
+    <string name="myData"> My Data </string>
+    <string name="textViewState"> State </string>
+    <string name="currentLocation">  Current Location </string>
+    <string name="donorList">  DONORS LIST </string>
+    <string name="hint"> To view the Blood Availability \nHint : Select state and submit </string>
+    <string name="hint_donor"> To view the donor \nHint : Select State and Blood group </string>
+    <string name="bloodgroups">   State wise distribution of Donors Blood Groups  </string>
+    <string name="bloodDistribution">   BLOOD DISTRIBUTION  </string>
+    <string name="address"> address</string>
+    <string name="name"> name </string>
+    <string name="medical_conditions"> medical_conditions </string>
+    <string name="contact_no"> contact_no </string>
+    <string name="latitude"> latitude </string>
+    <string name="longitude"> longitude </string>
+    <string name="title_activity_user_sign_up">UserSignUp</string>
+    <string name="login_button">Login</string>
+    <string name="signup_button">Sign Up</string>
+    <string name="passEmail">email</string>
+    <string name="success">success</string>
+    <string name="error">error</string>
+    <string name="added">has been added to the DB</string>
+    <string name="menu">BLOOD BANK MENU</string>
+    <string name="datas">DONOR  DATAS</string>
+    <string name="contact"> Contact</string>
+    <string name="clocation"> Location</string>
+    <string name="history"> History</string>
+    <string name="findLocation"> Find Location</string>
+    <string name="deleteEntry"> Delete Entry</string>
+    <string name="enterDonor"> Please enter the donor name</string>
+    <string name="enterAddress"> Please enter the address</string>
+    <string name="enterContact"> Please enter the contact no:</string>
+    <string name="enterBlood"> Please select the blood group</string>
+    <string name="enterState"> Please select the state</string>
+    <string name="enterMedical"> Please select the medical condition</string>
+    <string name="here"> Here is the Donor</string>
+    <string name="loading"> Loading...</string>
+    <string name="locationNotAvailable"> Location is not available for this donor.</string>
+    <string name="noPermission"> You do not have the permission to delete the data.</string>
+    <string name="deleted"> Data is deleted.</string>
+    <string name="na"> NA</string>
+    <string name="key"> key</string>
+    <string name="logout"> LOG OUT</string>
+
+
+
+    <string-array name="blood_group">
+        <item>Select</item>
+        <item>A+</item>
+        <item>A-</item>
+        <item>B+</item>
+        <item>B-</item>
+        <item>AB+</item>
+        <item>AB-</item>
+        <item>O+</item>
+        <item>O-</item>
+    </string-array>
+
+
+    <string-array name="current_location">
+        <item>Select</item>
+        <item>Yes</item>
+        <item>No</item>
+    </string-array>
+
+    <string-array name="medical_history">
+        <item>Select</item>
+        <item>No disease</item>
+        <item>HIV</item>
+        <item>Hepatitis B</item>
+        <item>Hepatitis C</item>
+        <item>HLTV</item>
+        <item>West Nile Virus</item>
+        <item>Malaria</item>
+        <item>Syphilis</item>
+        <item>Allergies</item>
+        <item>Others</item>
+
+    </string-array>
+
+    <string-array name="state_names">
+        <item>Select</item>
+        <item>AL</item>
+        <item>AK</item>
+        <item>AZ</item>
+        <item>AR</item>
+        <item>CA</item>
+        <item>CO</item>
+        <item>CT</item>
+        <item>DE</item>
+        <item>FL</item>
+        <item>GA</item>
+        <item>HI</item>
+        <item>ID</item>
+        <item>IL</item>
+        <item>IN</item>
+        <item>IA</item>
+        <item>KS</item>
+        <item>KY</item>
+        <item>LA</item>
+        <item>ME</item>
+        <item>MD</item>
+        <item>MA</item>
+        <item>MI</item>
+        <item>MN</item>
+        <item>MS</item>
+        <item>MO</item>
+        <item>MT</item>
+        <item>NE</item>
+        <item>NV</item>
+        <item>NH</item>
+        <item>NJ</item>
+        <item>NM</item>
+        <item>NY</item>
+        <item>NC</item>
+        <item>ND</item>
+        <item>OH</item>
+        <item>OK</item>
+        <item>OR</item>
+        <item>PA</item>
+        <item>RI</item>
+        <item>SC</item>
+        <item>SD</item>
+        <item>TN</item>
+        <item>TX</item>
+        <item>UT</item>
+        <item>VT</item>
+        <item>VA</item>
+        <item>WA</item>
+        <item>WV</item>
+        <item>WI</item>
+        <item>WY</item>
+    </string-array>
+    <string name="title_activity_location">Map</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="title_activity_view_map">Map</string>
+    <string name="title_activity_view_location">Map</string>
+
+
+</resources>

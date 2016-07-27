@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:orientation="horizontal"
+android:padding="2dp"
+android:id="@+id/relativeLayout"
+android:background="@drawable/selector">
+
+
+<!-- <ImageView -->
+<com.android.volley.toolbox.NetworkImageView
+    android:id="@+id/thumbnail"
+    android:layout_width="80dp"
+    android:layout_height="80dp"
+    android:layout_gravity="center_horizontal"
+    android:scaleType="fitXY"
+    android:src="@drawable/placeholder"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentLeft="true"
+    android:visibility="invisible"
+    android:layout_alignParentStart="true" />
+
+<TextView
+    android:id="@+id/email"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text=""
+    android:maxLines="0"
+    android:layout_below="@+id/id"
+    android:layout_toRightOf="@+id/thumbnail"
+    android:layout_toEndOf="@+id/thumbnail"
+    android:visibility="invisible"
+    android:paddingLeft="5dp"/>
+
+    <TextView
+        android:id="@+id/longitude"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:maxLines="0"
+        android:layout_below="@+id/id"
+        android:layout_toRightOf="@+id/thumbnail"
+        android:layout_toEndOf="@+id/thumbnail"
+        android:visibility="invisible"
+        android:paddingLeft="5dp"/>
+
+    <TextView
+        android:id="@+id/blood"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:maxLines="0"
+        android:layout_below="@+id/id"
+        android:layout_toRightOf="@+id/thumbnail"
+        android:layout_toEndOf="@+id/thumbnail"
+        android:visibility="invisible"
+        android:paddingLeft="5dp"/>
+
+    <TextView
+        android:id="@+id/state"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:maxLines="0"
+        android:layout_below="@+id/id"
+        android:layout_toRightOf="@+id/thumbnail"
+        android:layout_toEndOf="@+id/thumbnail"
+        android:visibility="invisible"
+        android:paddingLeft="5dp"/>
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text=""
+    android:id="@+id/latitude"
+    android:paddingLeft="5dp"
+    android:layout_alignBottom="@+id/thumbnail"
+    android:layout_toRightOf="@+id/id"
+    android:layout_toEndOf="@+id/id"
+    android:layout_marginLeft="43dp"
+    android:visibility="invisible"
+    android:layout_marginStart="43dp"/>
+
+<TextView
+    android:id="@+id/id"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:maxLines="2"
+    android:text=""
+    android:paddingLeft="5dp"
+    android:paddingTop="2dp"
+    android:visibility="invisible"
+    android:textStyle="bold"
+    android:textSize="18dp"
+    android:textColor="#000"
+    android:layout_alignTop="@+id/thumbnail"
+    android:layout_gravity="center|left" />
+
+<TextView
+    android:id="@+id/contact_no"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:maxLines="2"
+    android:text="@string/contact_no"
+    android:paddingLeft="5dp"
+    android:paddingTop="2dp"
+    android:textColor="#000"
+    android:layout_marginRight="76dp"
+    android:layout_marginEnd="76dp"
+    android:layout_alignTop="@+id/latitude"
+    android:layout_alignParentRight="true"
+    android:layout_alignParentEnd="true" />
+
+<TextView
+    android:id="@+id/name"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:maxLines="2"
+    android:text="@string/Name"
+    android:paddingLeft="5dp"
+    android:paddingTop="2dp"
+    android:textColor="#000"
+    android:layout_alignBottom="@+id/thumbnail"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true" />
+
+<TextView
+    android:id="@+id/address"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text=""
+    android:maxLines="0"
+    android:visibility="invisible"
+    android:paddingLeft="5dp"/>
+
+<TextView
+    android:id="@+id/medical_conditions"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text=""
+    android:maxLines="0"
+    android:visibility="invisible"
+    />
+
+</RelativeLayout>
